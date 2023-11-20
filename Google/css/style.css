@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+hr {
+  border-color: rgb(236, 235, 235);
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  padding: 10px 0; 
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.nav-item {
+  margin-right: 18px;
+}
+
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 13em;
+  display: flex;
+  flex-direction: column;  
+  text-align: center;
+}
+
+main div {
+  margin-top: 10px;;
+}
+
+.searchbar {
+  width: 30%;
+  padding: 15px;
+  border-radius: 32px;
+  outline: 0;
+  border: 1px lightgrey solid;
+  background-image: url('../img/lupa.png'), url('../img/widgets.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: 3% center, 95% center;
+}
+
+.searchbar:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.lang-nav {
+  padding-top: 12px;
+}
+
+.lang-nav a {
+  text-decoration: none;
+}
+
+.lang-nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #4d4d4d;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer > div {
+  margin: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #4d4d4d;
+  margin-right: 15px;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+}
