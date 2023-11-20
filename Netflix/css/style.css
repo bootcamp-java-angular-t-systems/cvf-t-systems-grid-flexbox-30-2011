@@ -47,8 +47,10 @@ header {
   margin-right: 20px;
 }
 
-.navbar .nav-link.active {
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
   font-weight: bold;
+  transition: .5s;
 }
 
 main {
